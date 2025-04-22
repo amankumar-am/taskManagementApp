@@ -25,9 +25,12 @@ body {
   border: none;
   color: #fff;
   font-weight: 600;
+  padding: 0.6rem 1.2rem;
   border-radius: 0.6rem;
   box-shadow: 0 0 12px rgba(0, 198, 255, 0.6);
   transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
 }
 
 .btn-glow:hover {
