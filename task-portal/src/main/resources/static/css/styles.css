@@ -27,16 +27,21 @@ body {
   font-weight: 600;
   padding: 0.6rem 1.2rem;
   border-radius: 0.6rem;
-  box-shadow: 0 0 12px rgba(0, 198, 255, 0.6);
+  box-shadow: 0 0 15px rgba(0, 198, 255, 0.8); /* Increased initial glow */
   transition: all 0.3s ease;
   display: inline-flex;
   align-items: center;
+  z-index: 10;
+  position: relative;
+  border: 1px solid rgba(0, 198, 255, 0.3); /* Subtle border for definition */
+  opacity: 1; /* Ensure full visibility */
 }
 
 .btn-glow:hover {
   background-color: #00b2e5;
-  box-shadow: 0 0 20px rgba(0, 198, 255, 0.9);
+  box-shadow: 0 0 25px rgba(0, 198, 255, 1); /* Even stronger glow on hover */
   transform: scale(1.03);
+  border-color: rgba(0, 198, 255, 0.6);
 }
 
 .neon-input {
